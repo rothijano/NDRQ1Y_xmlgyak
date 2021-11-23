@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="studentNDRQ1Y_apply.xsl"?>
+
+<class>
+    <student id = "01">
+        <vezeteknev>Rőthi</vezeteknev>
+        <keresztnev>János</keresztnev>
+        <becenev>Janó</becenev>
+        <kor>23</kor>
+    </student>
+
+    <student id = "02">
+        <vezeteknev>Teszt</vezeteknev>
+        <keresztnev>Elek</keresztnev>
+        <becenev>Test</becenev>
+        <kor>25</kor>
+    </student>
+
+    <student id = "03">
+        <vezeteknev>Am</vezeteknev>
+        <keresztnev>Erika</keresztnev>
+        <becenev>Amcsi</becenev>
+        <kor>19</kor>
+    </student>
+</class>
