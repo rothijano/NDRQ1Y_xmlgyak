@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<mozi>
+    <film id="sw4" mufaj="	 sci-fi">
+        <rendezo id="sw4_1" nev="James Earl Jones"/>
+        <szinesz id="sw4_2" nev="David Prowse"/>
+        <iro id="sw4_3" nev= "George Lucas"/>
+        <producer id="sw4_7" nev="Gary Kurtz"/>
+        <dramaturg id="sw4_6" nev="J. J. Abrams"/>
+        <operator id="sw4_5" nev="Gary Whitta"/>
+    </film>
+</mozi>

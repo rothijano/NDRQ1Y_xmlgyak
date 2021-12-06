@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<konferencia cim="Az xml beadandók elkészítése" helyszin="Valéta iroda" datum="2021.09.26.">
+    <hallgatok>
+        <hallgato nev="Sirankó Boldizsár" lakcim="3535 Miskolc Egyetemváros E/2."/>
+        <hallgato nev="Nádházy Gergely" lakcim="3535 Miskolc Egyetemváros E/2."/>
+    </hallgatok>
+    <eloado nev="Rőthi János" adoszam="844526812682" lakcim="3535 Miskolc Egyetemváros E/2."/>
+</konferencia>
