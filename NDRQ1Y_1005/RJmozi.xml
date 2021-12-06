@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--<!DOCTYPE mozi SYSTEM "RJmozi.dtd">-->
+
+<mozi xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="RJmozi.xsd">
+
+    <film id="f1" mufaj="akcio">
+        <rendezo id="dir1" nev="Carl"/>
+        <rendezo id="dir2" nev="Lagerfeld"/>
+        <szinesz id="act1" nev="Bruce Willis"/>
+        <iro id="w1"/>
+    </film>
+
+    <film id="f2" mufaj="scifi">
+        <rendezo id="dir3" nev="John"/>
+        <rendezo id="dir4" nev="Talia"/>
+        <szinesz id="act2" nev="Liam Neeson"/>
+        <iro id="w2"/>
+    </film>
+
+</mozi>
