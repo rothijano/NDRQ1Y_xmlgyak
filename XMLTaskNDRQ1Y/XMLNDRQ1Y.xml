@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaNDRQ1Y.xsd">
+    <inspectors>
+        <inspector id="2">
+            <lastName>Jean</lastName>
+            <firstName>Todt</firstName>
+        </inspector>
+        <inspector id="4">
+            <lastName>Laboda</lastName>
+            <firstName>Dániel</firstName>
+        </inspector>
+        <inspector id="6">
+            <lastName>Elek</lastName>
+            <firstName>Zoltán</firstName>
+        </inspector>
+    </inspectors>
+    <schedules>
+        <schedule id="1" vehicleId="ASD-123">
+            <arrivalTime>05:50:00</arrivalTime>
+            <departureTime>06:15:00</departureTime>
+        </schedule>
+        <schedule id="3" vehicleId="QWE-968">
+            <arrivalTime>08:30:00</arrivalTime>
+            <departureTime>08:35:00</departureTime>
+        </schedule>
+        <schedule id="5" vehicleId="ADC-666">
+            <arrivalTime>10:17:00</arrivalTime>
+            <departureTime>10:50:00</departureTime>
+        </schedule>
+        <schedule id="7" vehicleId="BOT-404">
+            <arrivalTime>12:40:00</arrivalTime>
+            <departureTime>13:00:00</departureTime>
+        </schedule>
+        <schedule id="8" vehicleId="TOP-282">
+            <arrivalTime>20:22:00</arrivalTime>
+            <departureTime>20:50:00</departureTime>
+        </schedule>
+    </schedules>
+    <stops>
+        <stop id="Bacsó Béla Utca">
+            <address>Bacsó Béla út 40.</address>
+        </stop>
+        <stop id="Soltész Nagy Kálmán">
+            <address>Soltész Nagy Kálmán út 8.</address>
+        </stop>
+        <stop id="Vízügyi igazgatóság">
+            <address>Vörösmarty Mihály utca. 77</address>
+        </stop>
+        <stop id="Miskolctapolca-Barlangfürdő">
+            <address>Pazár István Sétány 1.</address>
+        </stop>
+        <stop id="Római part">
+            <address>Római Part 30</address>
+        </stop>
+    </stops>
+    <drivers>
+        <driver id="1111-03-22">
+            <birthDate>1969-01-03</birthDate>
+            <lastName>Michael</lastName>
+            <firstName>Schumacher</firstName>
+            <license>
+                <car>true</car>
+                <bus>true</bus>
+                <tram>false</tram>
+            </license>
+        </driver>
+        <driver id="1111-03-23">
+            <birthDate>1960-03-21</birthDate>
+            <lastName>Ayrton</lastName>
+            <firstName>Senna</firstName>
+            <license>
+                <car>true</car>
+                <bus>true</bus>
+                <tram>false</tram>
+            </license>
+        </driver>
+        <driver id="1111-03-24">
+            <birthDate>1955-02-24</birthDate>
+            <lastName>Alain</lastName>
+            <firstName>Prost</firstName>
+            <license>
+                <car>false</car>
+                <bus>false</bus>
+                <tram>true</tram>
+            </license>
+        </driver>
+        <driver id="1111-03-25">
+            <birthDate>1987-07-03</birthDate>
+            <lastName>Sebastian</lastName>
+            <firstName>Vettel</firstName>
+            <license>
+                <car>false</car>
+                <bus>true</bus>
+                <tram>true</tram>
+            </license>
+        </driver>
+        <driver id="1111-03-26">
+            <birthDate>1981-07-29</birthDate>
+            <lastName>Fernando</lastName>
+            <firstName>Alonso</firstName>
+            <license>
+                <car>true</car>
+                <bus>true</bus>
+                <tram>false</tram>
+            </license>
+        </driver>
+    </drivers>
+    <routes>
+        <route id="1A" scheduleId="1">
+            <distance>12</distance>
+            <pricePerKm>30.2</pricePerKm>
+        </route>
+        <route id="20B" scheduleId="3">
+            <distance>14</distance>
+            <pricePerKm>30.75</pricePerKm>
+        </route>
+        <route id="43" scheduleId="5">
+            <distance>20</distance>
+            <pricePerKm>40.25</pricePerKm>
+        </route>
+        <route id="1" scheduleId="7">
+            <distance>17</distance>
+            <pricePerKm>25.0</pricePerKm>
+        </route>
+        <route id="12G" scheduleId="8">
+            <distance>21</distance>
+            <pricePerKm>35.0</pricePerKm>
+        </route>
+    </routes>
+    <vehicles>
+        <vehicle id="ASD-123" driverId="1111-03-22" scheduleId="1" inspectorId="2">
+            <seats>48</seats>
+            <manufacturer>MAN</manufacturer>
+            <type>bus</type>
+        </vehicle>
+        <vehicle id="QWE-968" driverId="1111-03-23" scheduleId="3" inspectorId="4">
+            <seats>34</seats>
+            <manufacturer>Ikarus</manufacturer>
+            <type>bus</type>
+        </vehicle>
+        <vehicle id="ADC-666" driverId="1111-03-24" scheduleId="5" inspectorId="6">
+            <seats>70</seats>
+            <manufacturer>Renault</manufacturer>
+            <type>bus</type>
+        </vehicle>
+        <vehicle id="BOT-404" driverId="1111-03-25" scheduleId="7">
+            <seats>230</seats>
+            <manufacturer>Skoda</manufacturer>
+            <type>tram</type>
+        </vehicle>
+        <vehicle id="TOP-282" driverId="1111-03-26" scheduleId="8">
+            <seats>200</seats>
+            <manufacturer>Skoda</manufacturer>
+            <type>tram</type>
+        </vehicle>
+    </vehicles>
+    <route-stop_join>
+        <join routeId="1A" stopId="Bacsó Béla Utca" />
+        <join routeId="1A" stopId="Római part" />
+        <join routeId="20B" stopId="Soltész Nagy Kálmán" />
+        <join routeId="20B" stopId="Vízügyi igazgatóság" />
+        <join routeId="43" stopId="Soltész Nagy Kálmán" />
+        <join routeId="43" stopId="Miskolctapolca-Barlangfürdő" />
+        <join routeId="43" stopId="Római part" />
+        <join routeId="1" stopId="Vízügyi igazgatóság" />
+        <join routeId="1" stopId="Miskolctapolca-Barlangfürdő" />
+        <join routeId="12G" stopId="Bacsó Béla Utca" />
+        <join routeId="12G" stopId="Vízügyi igazgatóság" />
+        <join routeId="12G" stopId="Római part" />
+    </route-stop_join>
+</company>
