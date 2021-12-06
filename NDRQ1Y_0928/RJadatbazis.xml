@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE adatbazis SYSTEM "RJadatbazis.dtd">
+
+<adatbazis>
+    <dolgozo kod="id1">
+        <nev>Kala Pál</nev>
+        <fizetes>20000</fizetes>
+    </dolgozo>
+    <dolgozo kod="id2">
+        <nev>Pepsi Béla</nev>
+        <fizetes>17500</fizetes>
+    </dolgozo>
+</adatbazis>

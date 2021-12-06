@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<konyvek>
+    <konyv id="konyv1">
+        <cim>Tesla - Elon Musk és az évszázad fogadása</cim>
+        <kiadas_eve>2021</kiadas_eve>
+        <kiado>Central Könyvek</kiado>
+        <szerzo>Tim Higgins</szerzo>
+        <absztrakt>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+            et dolore magna aliqua.
+        </absztrakt>
+    </konyv>
+    <konyv id="konyv2">
+        <cim>Az Orbán-szabály</cim>
+        <kiadas_eve>2020</kiadas_eve>
+        <kiado>Közép- és Kelet Európai Történelem és Társadalom Kutatásáért Közalapítvány kiadó</kiado>
+        <szerzo>G. Fodor Gábor</szerzo>
+    </konyv>
+    <konyv id="konyv3">
+        <cim>Idiótákkal körülvéve - Hogyan értsük meg azokat, akiket lehetetlen megérteni?</cim>
+        <kiadas_eve>2018</kiadas_eve>
+        <kiado>Central Médiacsoport Zrt.</kiado>
+        <szerzo>Thomas Erikson</szerzo>
+    </konyv>
+</konyvek>
