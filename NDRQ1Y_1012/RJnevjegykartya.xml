@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<nevjegykartyak xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="RJnevjegykartya.xsd">
+	<nevjegykartya>
+		<nev>Rőthi János</nev>
+		<ceg>
+			<nev>Admatis KFT</nev>
+			<cim>
+				<iranyitoszam>3534</iranyitoszam>
+				<varos>Miskolc</varos>
+				<utca>Kandó Kálmán utca</utca>
+				<hazszam>5</hazszam>			
+			</cim>
+			<telefonszam>3646898333</telefonszam>
+			<weblap>https://admatis.com/</weblap>
+		</ceg>
+		<beosztas>IT Support</beosztas>
+		<telefonszam>361234567</telefonszam>
+		<email>rothi.janos@gmail.com</email>
+	</nevjegykartya>
+	<nevjegykartya>
+		<nev>Rőthi Sándor</nev>
+		<ceg>
+			<nev>madeIT.hu Informatika Kft</nev>
+			<cim>
+				<iranyitoszam>1143</iranyitoszam>
+				<varos>Budapest</varos>
+				<utca>Semsey Andor utca</utca>
+				<hazszam>25</hazszam>			
+			</cim>
+			<telefonszam>0646501120</telefonszam>
+			<weblap>https://madeit.hu/</weblap>
+		</ceg>
+		<beosztas>Rendszermérnök</beosztas>
+		<telefonszam>06301234567</telefonszam>
+		<email>rothi.sandor@madeit.hu</email>
+	</nevjegykartya>
+</nevjegykartyak>	
