@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="usersNDRQ1Y.xsd">
+  <user id="1">
+    <firstname>Nagy</firstname>
+    <lastname>Miklos</lastname>
+    <profession>Teacher</profession>
+  </user>
+  <user id="2">
+    <firstname>Natalia</firstname>
+    <lastname>Mar</lastname>
+    <profession>Actress</profession>
+  </user>
+  <user id="3">
+    <firstname>Ramsey</firstname>
+    <lastname>Gordon</lastname>
+    <profession>Chef</profession>
+  </user>
+</users>
