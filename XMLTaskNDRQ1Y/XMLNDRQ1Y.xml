@@ -154,6 +154,24 @@
             <type>tram</type>
         </vehicle>
     </vehicles>
+    <garages>
+        <garage id="3D">
+            <location>Búzatér</location>
+            <type>Bus</type>
+        </garage>
+        <garage id="5F">
+            <location>Diósgyőr</location>
+            <type>Tram</type>
+        </garage>
+        <garage id="5F">
+            <location>Pesti Út</location>
+            <type>Bus</type>
+        </garage>
+        <garage id="5F">
+            <location>Tiszai Pályaudvar</location>
+            <type>Tram</type>
+        </garage>
+    </garages>
     <route-stop_join>
         <join routeId="1A" stopId="Bacsó Béla Utca" />
         <join routeId="1A" stopId="Római part" />

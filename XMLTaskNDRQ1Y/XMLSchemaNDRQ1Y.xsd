@@ -46,6 +46,13 @@
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>
+                <xs:element name="garages">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="garage" type="garage" minOccurs="0" maxOccurs="unbounded" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
                 <xs:element name="route-stop_join">
                     <xs:complexType>
                         <xs:sequence>
@@ -56,12 +63,12 @@
             </xs:sequence>
         </xs:complexType>
 
-        <!-- key - keyref azonossági megszorítások -->
+        <!-- kulcsok -->
         <xs:unique name="inspectorId">
-            <xs:selector xpath=".//vehicle" />
-            <xs:field xpath="@inspectorId" />
+            <xs:selector xpath=".//vehicle" /> <!-- Kijelölöm az összes vehicle típusú elemet, azon belül megnézem, hogy minden vehicle elemnél van-e egyedi inspectorID -->
+            <xs:field xpath="@inspectorId" />  <!-- Egy inspector egyszerre csak egy járművön lehet rajta, ezért "unique"-->
         </xs:unique>
-        <xs:keyref name="inspectorIdref" refer="inspectorId">
+        <xs:keyref name="inspectorIdref" refer="inspectorId"> <!-- Keyref összerendeli 2 elem ID-jét egymás között referben látszik, hogy mire hivatkozik-->
             <xs:selector xpath=".//inspector" />
             <xs:field xpath="@id" />
         </xs:keyref>
@@ -172,6 +179,14 @@
         <xs:attribute name="driverId" type="xs:date" use="required" />
         <xs:attribute name="scheduleId" type="xs:int" use="required" />
         <xs:attribute name="inspectorId" type="xs:int" use="optional" />
+    </xs:complexType>
+
+    <xs:complexType name="garage">
+        <xs:sequence>
+            <xs:element name="location" type="xs:string" />
+            <xs:element name="type" type="xs:string" />
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:string" use="required" />
     </xs:complexType>
 
     <xs:complexType name="route-stop">
